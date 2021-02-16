@@ -29,7 +29,7 @@ Then, paste this in (just make sure to change *pi* with your username if you cha
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/WebStationSYSMON -p 6969 -6
+ExecStart=/home/pi/sysmon/main.py -p 6969 -6
 
 [Install]
 WantedBy=default.target
