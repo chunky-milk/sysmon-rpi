@@ -15,7 +15,7 @@ If all goes well, you should be able to execute the command `pip --version` and 
 
 Next step is to clone the repository. This repository contains the code that makes up the software itself, and that's what we'll be working with. Execute this command to clone the repository and install required packages using *pip*.
 ```
-git clone https://github.com/t0xic0der/sysmon.git && cd sysmon
+cd ~/ && git clone https://github.com/t0xic0der/sysmon.git && cd sysmon
 sudo pip3 install -r requirements.txt
 ```
 
